@@ -1,0 +1,70 @@
+body {
+    background-color: black;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#navbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#navbar .nav-link {
+    color: #354295;
+}
+
+#navbar .nav-link:hover {
+    color: whitesmoke;
+}
+
+#home {
+    background-image: url(Space.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 600px;
+    color: white;
+}
+
+.dropdown-item {
+    color: #354295;
+}
+
+.dropdown-item:hover {
+    color: whitesmoke;
+}
+
+#navbar .navbar-brand {
+    color: rgb(3, 182, 252);
+    font-size: 1.5rem;
+    text-align: justify;
+    letter-spacing: 2px;
+}
+
+#title-head {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.blurb h2 {
+    color: #354295;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurb p {
+    color: #354295;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+:target {
+    scroll-margin-top: 76px;
+}
+
+@media (max-width: 1200px) {
+    #title-head h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
